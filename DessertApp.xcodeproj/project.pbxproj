@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		391ABBFD2C18055A00D48FDA /* DessertAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ABBFC2C18055A00D48FDA /* DessertAppApp.swift */; };
+		391ABBFD2C18055A00D48FDA /* DessertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ABBFC2C18055A00D48FDA /* DessertApp.swift */; };
 		391ABBFF2C18055A00D48FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391ABBFE2C18055A00D48FDA /* ContentView.swift */; };
 		391ABC012C18055B00D48FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391ABC002C18055B00D48FDA /* Assets.xcassets */; };
 		391ABC042C18055B00D48FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391ABC032C18055B00D48FDA /* Preview Assets.xcassets */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		391ABBF92C18055A00D48FDA /* DessertApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DessertApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		391ABBFC2C18055A00D48FDA /* DessertAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertAppApp.swift; sourceTree = "<group>"; };
+		391ABBFC2C18055A00D48FDA /* DessertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertApp.swift; sourceTree = "<group>"; };
 		391ABBFE2C18055A00D48FDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		391ABC002C18055B00D48FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391ABC032C18055B00D48FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		391ABBFB2C18055A00D48FDA /* DessertApp */ = {
 			isa = PBXGroup;
 			children = (
-				391ABBFC2C18055A00D48FDA /* DessertAppApp.swift */,
+				391ABBFC2C18055A00D48FDA /* DessertApp.swift */,
 				391ABBFE2C18055A00D48FDA /* ContentView.swift */,
 				391ABC282C1A9BC600D48FDA /* MenuResponse.swift */,
 				391ABC2A2C1A9CDB00D48FDA /* MealResponse.swift */,
@@ -274,7 +274,7 @@
 				391ABC2D2C1A9D4900D48FDA /* MealData.swift in Sources */,
 				391ABC272C1A9A8200D48FDA /* MenuData.swift in Sources */,
 				391ABC2B2C1A9CDB00D48FDA /* MealResponse.swift in Sources */,
-				391ABBFD2C18055A00D48FDA /* DessertAppApp.swift in Sources */,
+				391ABBFD2C18055A00D48FDA /* DessertApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
