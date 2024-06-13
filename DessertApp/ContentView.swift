@@ -57,7 +57,12 @@ struct MealDetailView: View {
                     Text(mealDetail.name)
                         .font(.largeTitle)
                         .bold()
-                    
+                    if !mealDetail.youtubeLink.isEmpty {
+                        Link("Watch on YouTube", destination: URL(string: mealDetail.youtubeLink)!)
+                            .font(.title2)
+                            .foregroundColor(.blue)
+                            .padding(.vertical)
+                    }
                     Text("Instructions")
                         .font(.title2)
                         .bold()
